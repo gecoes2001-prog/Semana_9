@@ -1,0 +1,9 @@
+Cuando ejecuto node server.js, el servidor se inicia y muestra en la terminal el mensaje: "Servidor ejecutándose en puerto 3000".
+
+Al visitar la ruta http://localhost:3000/ con curl, el servidor responde con el texto: "Servidor activo y funcionando".
+
+Al visitar la ruta http://localhost:3000/estado con curl, el servidor responde con un objeto JSON:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
